@@ -158,7 +158,7 @@ def token_required(f):
 
 @app.route("/")  # H O M E 
 def home():
-    return jsonify({"message": "Qoganini eslalmadim!"}), 200
+    return jsonify({"message": "Xush kelibsiz!"}), 200
 
 
 @app.route("/user", methods=['GET']) # G E T   A L L
